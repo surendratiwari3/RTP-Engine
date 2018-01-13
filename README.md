@@ -1,4 +1,4 @@
-# steps for installing rtp engine on centos
+# Dependency for rtpengine ubuntu 16
 
 ## apt-get install debhelper 
 ## apt-get install iptables-dev
