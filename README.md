@@ -6,3 +6,6 @@
 ## apt-get install libpcre3-dev libxmlrpc-core-c3-dev
 ## apt-get install markdown
 
+# Download rtpengine source
+## git clone https://github.com/sipwise/rtpengine.git
+
