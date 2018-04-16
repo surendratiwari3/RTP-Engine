@@ -2,14 +2,16 @@
 
 ## Dependencies
 - Edit apt source for backport to debhelper 10
-  Vim /etc/apt/source.list —> deb http://ftp.debian.org/debian jessie-backports main
+  /etc/apt/source.list —> deb http://ftp.debian.org/debian jessie-backports main
 
 - apt-get -t jessie-backports install "debhelper"
+
 - apt-get -t jessie-backports install "libavutil-dev"
+
 - apt-get install debhelper  libmysqlclient-dev iptables-dev libavcodec-dev libavfilter-dev libavformat-dev libavutil-dev libcurl4-openssl-dev  libcurl3-openssl-dev  libevent-dev libglib2.0-dev libhiredis-dev libjson-glib-dev libpcap0.8-dev libpcap-dev libpcre3-dev libssl-dev  libxmlrpc-core-c3-dev markdown zlib1g-dev unzip module-assistant nfs-common
 
 - apt-get install dpkg-dev git
-- 
+
 - Install bcg729
    VER=1.0.4
    curl   https://codeload.github.com/BelledonneCommunications/bcg729/tar.gz/$VER   >bcg729_$VER.orig.tar.gz
