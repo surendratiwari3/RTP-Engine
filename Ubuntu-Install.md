@@ -1,4 +1,4 @@
-# Dependency for rtpengine ubuntu 16
+# Ubuntu
 
 ## Dependencies
  - apt-get install debhelper iptables-dev libcurl4-openssl-dev libpcre3-dev libxmlrpc-core-c3-dev markdown libavfilter-dev libavformat-dev libavresample-dev libevent-dev libglib2.0-dev libhiredis-dev libjson-glib-dev libpcap0.8-dev  libpcap-dev libssl-dev dkms module-assistant nfs-common libb-hooks-op-check-perl libexporter-tidy-perl libbencode-perl libcrypt-rijndael-perl libdigest-hmac-perl libio-socket-inet6-perl libsocket6-perl 
